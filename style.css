@@ -42,14 +42,15 @@ div{
     border-left: 2px solid;
     border-left-width: 2px;
     border-top-style: solid;
-    border-left-color: initial;
+    border-left-color: #ff5959;
     border-image: linear-gradient(120deg,lightsalmon,tomato);
-    border-image-repeat: initial;
+    border-image-repeat: round;
     border-image-slice: 1;
 }
 .mission-area{
     width: 100%;
     height: 200px;
+    padding-top: 5px;
 }
 .mission-area h1{
     text-align: center;
@@ -65,13 +66,24 @@ h3{
 }
 .about-mission{
     display: flex;
-    background-color: violet;
+}
+#love-area{
+    background-color: #edf5f6;
     border-radius: 30px;
 }
-.dream-area{
+#happy-area{
+    background-color: #ffeeee;
+    border-radius: 30px;
+}
+#sad-area{
+    background-color: #fff4d6;
+    border-radius: 30px;
+}
+.develop-area{
     background-image: url(images/shapes/dream-bg.png);
     background-repeat: no-repeat;
     background-position: left;
+    padding-top: 50px;
 }
 .know-area{
     background-image: url(images/shapes/shape-10.png);
