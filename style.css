@@ -2,10 +2,10 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-.focused-area{
+.header-area{
     display: flex;
 }
-.header-area{
+.header1-area{
     font-size: 50px;
     padding-left: 10px;
     border-left: 3px solid tomato;
