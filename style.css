@@ -13,14 +13,15 @@ body{
 
 section{
     display: block;
-    margin-bottom: 150px;
+    margin-bottom: 200px;
     height: 350px;
 }
 .half-width{
     width: 40%;
     float: left;
     margin-left: 1%;
-    padding-left: 2%;
+    padding-left: 4%;
+
 }
 div{
     display: block;
@@ -29,7 +30,7 @@ div{
     margin-top: 50px;
 }
 .half-width img{
-    width: 60%;
+    width: 50%;
     padding-top: 20px;
     padding-right: 2%;
     padding-left: 5%;
@@ -89,16 +90,17 @@ p{
     background-color: #fff4d6;
     border-radius: 30px;
 }
-#develop-area{
+.develop-area{
     background-image: url(images/shapes/develop.png);
     background-repeat: no-repeat;
-    background-position: left;
-    padding-top: 250px;
+    background-position: 2% 83%;;
+    padding-top: 240px;
+    background-size: 80px 240px;
 }
 .know-area{
     background-image: url(images/shapes/know.png);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: bottom -30px right 10px;;
     padding: 10px 10px 20px 20px;
     margin-right: 20px;
     margin-left: 90px;
