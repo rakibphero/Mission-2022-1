@@ -93,9 +93,9 @@ p{
 .develop-area{
     background-image: url(images/shapes/develop.png);
     background-repeat: no-repeat;
-    background-position: 8% 83%;;
+    background-position: 8% 82%;;
     padding-top: 250px;
-    background-size: 60px 260px;
+    background-size: 50px 250px;
 }
 .know-area{
     display: flex;
