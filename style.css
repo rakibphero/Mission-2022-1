@@ -37,7 +37,7 @@ div{
 }
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(orange,tomato);
+    background-image: linear-gradient(#ff5959,#ff5959);
     padding: 10px 40px;
     color: white;
     border-radius: 5px;
@@ -108,6 +108,9 @@ p{
     height: 66%;
     margin-left: 250px;
     padding-top: 20px;
+}
+.update-area{
+    padding-bottom: 10%;
 }
 .footer-area{
     background-color: black;
