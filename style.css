@@ -1,34 +1,39 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 .focused-area{
     display: flex;
 }
-h1{
+.header-area{
     font-size: 50px;
+    padding-left: 10px;
+    border-left: 3px solid tomato;
 }
-span{
-    color: orange;
-}
+
 section{
     display: block;
     margin-bottom: 150px;
-    height: 500px;
+    height: 350px;
 }
 .half-width{
     width: 40%;
     float: left;
-    margin-left: 5%;
+    margin-left: 1%;
     padding-left: 2%;
 }
 div{
     display: block;
 }
+#header area{
+    margin-top: 50px;
+}
 .half-width img{
-    width: 80%;
-    padding-top: 40px;
-    padding-right: 10px;
-    padding-left: 10px;
+    width: 60%;
+    padding-top: 20px;
+    padding-right: 2%;
+    padding-left: 5%;
+    padding-bottom: 10px;
 }
 .link-button{
     text-decoration: none;
@@ -38,19 +43,13 @@ div{
     border-radius: 5px;
     font-weight: 700;
 }
-#full-width{
-    border-left: 2px solid;
-    border-left-width: 2px;
-    border-top-style: solid;
-    border-left-color: #ff5959;
-    border-image: linear-gradient(120deg,lightsalmon,tomato);
-    border-image-repeat: round;
-    border-image-slice: 1;
+.header-area{
+    border-left: 3px solid tomato;
+    padding-left: 5%;
 }
 .mission-area{
     width: 100%;
     height: 200px;
-    padding-top: 5px;
 }
 .mission-area h1{
     text-align: center;
@@ -63,9 +62,20 @@ div{
 h3{
     padding-bottom: 40px;
     padding-left: 5px;
+    margin: 0px;
+}
+p{
+    margin: 0px;
+    padding-bottom: 50px;
+    padding-top: 10px;
 }
 .about-mission{
     display: flex;
+    margin: 0px;
+    width: 90%;
+    height: 200%;
+    padding: 1px 10px 20px 10px;
+    margin: 50px 50px 40px;
 }
 #love-area{
     background-color: #edf5f6;
@@ -80,15 +90,24 @@ h3{
     border-radius: 30px;
 }
 .develop-area{
-    background-image: url(images/shapes/dream-bg.png);
+    background-image: url(images/shapes/develop.png);
     background-repeat: no-repeat;
     background-position: left;
-    padding-top: 50px;
+    padding-top: 200px;
 }
 .know-area{
-    background-image: url(images/shapes/shape-10.png);
+    background-image: url(images/shapes/know.png);
     background-repeat: no-repeat;
     background-position: right;
+    padding: 10px 10px 20px 20px;
+    margin-right: 20px;
+    margin-left: 90px;
+}
+.know-area img{
+    width: 65%;
+    height: 66%;
+    margin-left: 250px;
+    padding-top: 20px;
 }
 .footer-area{
     background-color: black;
