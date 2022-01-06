@@ -89,11 +89,11 @@ p{
     background-color: #fff4d6;
     border-radius: 30px;
 }
-.develop-area{
+#develop-area{
     background-image: url(images/shapes/develop.png);
     background-repeat: no-repeat;
     background-position: left;
-    padding-top: 200px;
+    padding-top: 250px;
 }
 .know-area{
     background-image: url(images/shapes/know.png);
